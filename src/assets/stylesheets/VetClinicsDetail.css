@@ -1,0 +1,33 @@
+* {
+    font-family: "Roboto";
+    margin: 0vw;
+    padding: 0vw;
+}
+.vet-clinics {
+    display: block;
+    border: 0.2vw solid;
+    padding: 1vw;
+    box-shadow: 0.5vw 0.5vw #e34234;
+    text-align: left;
+    margin-bottom: 3vw;
+}
+.vet-clinics-photos {
+    height: 10vw;
+    width: 10vw;
+    display: inline-block;
+    position: relative;
+    right: 15vw;
+}
+#vet-clinic-details {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    bottom: 1vw;
+    margin-left: -13vw;
+}
+.fa {
+    margin-right: 0.5vw;
+}
+#distance {
+    color: green;
+}

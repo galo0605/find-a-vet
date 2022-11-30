@@ -1,0 +1,17 @@
+* {
+    font-family: "Roboto";
+    margin: 0vw;
+    padding: 0vw;
+}
+#vet-clinics-wrapper {
+    text-align: center;
+    display: block;
+    padding: 0vw 18vw;
+    padding-bottom: 3vw;
+}
+.lbl-list {
+    font-size: 2rem;
+    margin: 1vw auto;
+    display: block;
+    font-weight: bold;
+}

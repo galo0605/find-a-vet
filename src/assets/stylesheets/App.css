@@ -1,0 +1,31 @@
+* {
+    font-family: "Roboto";
+    margin: 0vw;
+    padding: 0vw;
+}
+#logo {
+    width: 13vw;
+}
+.navbar-custom {
+    background-color: #03045e;
+}
+.nav-link {
+    color: white !important;
+    margin-left: 1vw;
+    font-size: 1.5rem;
+}
+.nav-link:hover {
+    color: #e34133 !important;
+}
+.navdropdown-custom::selection {
+    background-color: #03045e !important;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-item:hover {
+    color: #e34133;
+}
+.dropdown-item:active {
+    background-color: #03045e;
+}

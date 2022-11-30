@@ -1,0 +1,24 @@
+* {
+    font-family: "Roboto";
+    margin: 0vw;
+    padding: 0vw;
+    font-size: 2rem;
+}
+#gallery {
+    padding: 2vw;
+    border: 0.2vw solid black;
+    width: 70%;
+    margin: 1vw auto;
+}
+label {
+    display: block;
+}
+.selfies,
+.family,
+.adventure {
+    height: 10vw;
+    display: inline-block;
+    margin: 0vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}

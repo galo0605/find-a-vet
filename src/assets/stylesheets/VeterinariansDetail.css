@@ -1,0 +1,22 @@
+* {
+    font-family: "Roboto";
+    margin: 0vw;
+    padding: 0vw;
+}
+.vet {
+    display: inline-block;
+    width: 25vw;
+}
+.vet:hover {
+    transform: scale(1.1);
+}
+.photos {
+    height: 15vw;
+    display: inline-block;
+    position: relative;
+    right: 10vw;
+}
+#name {
+    margin-top: 1vw;
+    font-weight: bold;
+}

@@ -1,0 +1,22 @@
+* {
+    font-family: "Roboto";
+    margin: 0vw;
+    padding: 0vw;
+}
+#border {
+    background-color: #03045e;
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+}
+#label {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#info {
+    padding: 1vw;
+    margin: 1vw;
+    text-align: center;
+    display: block;
+}

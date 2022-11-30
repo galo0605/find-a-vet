@@ -1,0 +1,16 @@
+* {
+    font-family: "Roboto";
+    margin: 0vw;
+    padding: 0vw;
+}
+#wrapper {
+    text-align: center;
+    display: block;
+}
+#lbl-consult {
+    font-size: 2rem;
+    margin: 1vw auto;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3vw;
+}
