@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/find-a-vet/static/css/main.7bead5d0.css",
+    "main.js": "/find-a-vet/static/js/main.f5409846.js",
+    "static/media/vet-1.png": "/find-a-vet/static/media/vet-1.95f077f25d0ed79d26c4.png",
+    "static/media/vet-4.png": "/find-a-vet/static/media/vet-4.0ebe67771d6144db401a.png",
+    "static/media/vet-2.png": "/find-a-vet/static/media/vet-2.17b0139904a72384e4ae.png",
+    "static/media/vet-3.png": "/find-a-vet/static/media/vet-3.b37582970be498bccf01.png",
+    "static/media/carousel_join_professional_veterinarian.png": "/find-a-vet/static/media/carousel_join_professional_veterinarian.893f1259572544ee0e57.png",
+    "static/media/carousel_professional_veterinarian.png": "/find-a-vet/static/media/carousel_professional_veterinarian.7bbe1905ff121b9b259d.png",
+    "static/media/vet-clinic-holy-spirit.jpg": "/find-a-vet/static/media/vet-clinic-holy-spirit.fd48b1ab79dbbd96d582.jpg",
+    "static/media/vet-clinic-pet-house.jpg": "/find-a-vet/static/media/vet-clinic-pet-house.51b42674b9a6d752369b.jpg",
+    "static/media/carousel_search_vet_clinic.png": "/find-a-vet/static/media/carousel_search_vet_clinic.0f10ac0a920a91739720.png",
+    "static/media/vet-clinic-up-veterinary.jpg": "/find-a-vet/static/media/vet-clinic-up-veterinary.dd4553fd7b82858c1f98.jpg",
+    "static/media/vet-clinic-ppbcc.jpg": "/find-a-vet/static/media/vet-clinic-ppbcc.ba1811653dc1a8c69836.jpg",
+    "static/media/vet-clinic-petlink.jpg": "/find-a-vet/static/media/vet-clinic-petlink.eb6d8b7bc0bfc011ffab.jpg",
+    "static/media/logo.png": "/find-a-vet/static/media/logo.05dddca5373c025e3597.png",
+    "index.html": "/find-a-vet/index.html",
+    "main.7bead5d0.css.map": "/find-a-vet/static/css/main.7bead5d0.css.map",
+    "main.f5409846.js.map": "/find-a-vet/static/js/main.f5409846.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bead5d0.css",
+    "static/js/main.f5409846.js"
+  ]
+}
