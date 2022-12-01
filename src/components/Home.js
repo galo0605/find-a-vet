@@ -1,5 +1,6 @@
 import "../assets/stylesheets/Home.css";
 import React from "react";
+import { Link } from "react-router-dom";
 import { Carousel, Button, Nav } from "react-bootstrap";
 class Home extends React.Component {
     render() {
@@ -16,7 +17,8 @@ class Home extends React.Component {
                             variant="carousel"
                             type="submit"
                             size="lg"
-                            href="/consult"
+                            as={Link}
+                            to="/consult"
                         >
                             Consult Now
                         </Button>
@@ -34,7 +36,8 @@ class Home extends React.Component {
                             variant="carousel"
                             type="submit"
                             size="lg"
-                            href="/apply"
+                            as={Link}
+                            to="/apply"
                         >
                             Apply Now
                         </Button>
@@ -47,7 +50,7 @@ class Home extends React.Component {
                         alt="apply-as-vet"
                     />
                     <Carousel.Caption>
-                        <Nav.Link id="find" href="/find-a-vet-clinic">
+                        <Nav.Link id="find" as={Link} to="/find-a-vet-clinic">
                             Find an open veterinary clinic near me
                         </Nav.Link>
                     </Carousel.Caption>
