@@ -1,6 +1,7 @@
 import "./assets/stylesheets/App.css";
 import React, { Component } from "react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Home from "./components/Home";
 import About from "./components/About";
