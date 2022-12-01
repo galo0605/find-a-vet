@@ -15,7 +15,7 @@ class App extends Component {
         return (
             <Router>
                 <Navbar expand="lg" className="navbar-custom">
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand as={Link} to="/">
                         <img
                             id="logo"
                             src={require("./assets/images/logo.png")}
