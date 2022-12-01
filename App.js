@@ -2,12 +2,12 @@ import "../assets/stylesheets/App.css";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import Home from "./Home";
-import About from "./About";
-import Apply from "./Apply";
-import Consult from "./Consult";
-import VetClinics from "./VetClinics";
-import ContactUs from "./ContactUs";
+import Home from "./src/components/Home";
+import About from "./src/components/About";
+import Apply from "./src/components/Apply";
+import Consult from "./src/components/Consult";
+import VetClinics from "./src/components/VetClinics";
+import ContactUs from "./src/components/ContactUs";
 
 class App extends Component {
     render() {
