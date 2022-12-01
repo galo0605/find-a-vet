@@ -17,7 +17,7 @@ class App extends Component {
                     <Navbar.Brand href="/">
                         <img
                             id="logo"
-                            src={require("../assets/images/logo.png")}
+                            src={require("./assets/images/logo.png")}
                             alt="find-a-vet-logo"
                         />
                     </Navbar.Brand>
