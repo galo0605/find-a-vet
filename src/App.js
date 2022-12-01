@@ -1,6 +1,6 @@
 import "./assets/stylesheets/App.css";
 import React, { Component } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Link as Router, Routes, Route } from "react-router-dom";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -29,21 +29,22 @@ class App extends Component {
                                 className="navdropdown-custom"
                                 renderMenuOnMount={true}
                             >
-                                <NavDropdown.Item href="/about">
+                                <NavDropdown.Item as={Link} to="/about">
                                     About Us
                                 </NavDropdown.Item>
-                                <NavDropdown.Item href="/apply">
+                                <NavDropdown.Item as={Link} to="/apply">
                                     Apply to be an FV Veterinarian
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/consult">
+                            <Nav.Link as={Link} to="/consult">
                                 See A Veterinarian
                             </Nav.Link>
-                            <Nav.Link href="/find-a-vet-clinic">
+                            <Nav.Link as={Link} to="/find-a-vet-clinic">
                                 Find A Veterinary Clinic
                             </Nav.Link>
                             <Nav.Link
-                                href="/contact-us"
+                                as={Link}
+                                to="/contact-us"
                                 className="navbar-links"
                             >
                                 Contact
@@ -52,20 +53,15 @@ class App extends Component {
                     </Navbar.Collapse>
                 </Navbar>
                 <Routes>
-                    <Route exact path="/" element={<Home />}></Route>
-                    <Route exact path="/about" element={<About />}></Route>
-                    <Route exact path="/apply" element={<Apply />}></Route>
-                    <Route exact path="/consult" element={<Consult />}></Route>
+                    <Route path="/" element={<Home />}></Route>
+                    <Route path="/about" element={<About />}></Route>
+                    <Route path="/apply" element={<Apply />}></Route>
+                    <Route path="/consult" element={<Consult />}></Route>
                     <Route
-                        exact
                         path="/find-a-vet-clinic"
                         element={<VetClinics />}
                     ></Route>
-                    <Route
-                        exact
-                        path="/contact-us"
-                        element={<ContactUs />}
-                    ></Route>
+                    <Route path="/contact-us" element={<ContactUs />}></Route>
                 </Routes>
             </Router>
         );
