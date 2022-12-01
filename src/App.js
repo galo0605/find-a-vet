@@ -1,4 +1,4 @@
-import "../assets/stylesheets/App.css";
+import "./assets/stylesheets/App.css";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
